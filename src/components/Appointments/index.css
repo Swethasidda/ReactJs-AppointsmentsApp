@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.big-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  background-color: #ffffff;
+  background-size: cover;
+  width: 80%;
+  border-radius: 10px;
+  border-width: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.from-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 70px;
+  margin-top: 30px;
+}
+.heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.label-title {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  text-align: start;
+  margin-bottom: 5px;
+}
+.input-element {
+  background-color: transparent;
+  box-shadow: 4px 0px 16px #bfbfbf;
+  border-radius: 5px;
+  border-width: 0px;
+  width: 150px;
+  padding: 5px;
+  outline: none;
+  border-bottom: 2px solid #b5b7c4;
+  margin-bottom: 5px;
+}
+.button2 {
+  background-color: #8b5cf6;
+  background-size: cover;
+  border-width: 0px;
+  padding: 7px;
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: bold;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+.appointment-image {
+  height: 200px;
+  width: 200px;
+  margin-right: 210px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.separator {
+  width: 90%;
+  color: #b5b7c4;
+}
+.results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+}
+.results-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+.button1 {
+  background-color: transparent;
+  background-size: cover;
+  border-radius: 10px;
+  border: 2px solid #9897f0;
+  font-family: 'Roboto';
+  font-size: 13px;
+  font-weight: 400;
+  color: #8b5cf6;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+.form-container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.small-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.results-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
